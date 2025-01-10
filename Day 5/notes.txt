@@ -8,16 +8,23 @@ type of function function is invloked(calling)
 -----------------
 named function
 anoymous
-function exp[ression
+function expression
 imdiate invloked function expression-- invoked one time
-arrow dfunction-- it is introduced in e6 feature.
+arrow function-- it is introduced in e6 feature.
 -it concise the normal size of data (reduces)
 --it is similar to varaible
-higher order function
-callback function
+7.higher order function:
+--higher order function is a function which accept another function as an argument/values
+
+8.callback function:
+--callback function is a function which is passed as an argument another function
+
 **closure**
+--closure is a memory created when functions are bundled together are nested each other by giving accessibility
+ to the innermost function to accept the varaible of outermost function.
+ --
 
-
+ 
 NOte: current function of javascript is Es14.
         es - ECMA script.
         ECMA- eurpoen computer manufactring association.
@@ -26,3 +33,4 @@ NOte: current function of javascript is Es14.
 explicit return :- explicity we have to keyword called as return
 impilicit returns:- 
 Note: No printing statment after return statemnet
+

@@ -94,10 +94,43 @@
 // let y = (a,b)=>a+b;
 // console.log(x(500,200));
 
-function test2(a,b){
-    console.log("Hello i am  printing after return keyword");
-    return a=b;
-    console.log();
+// function test2(a,b){
+//     console.log("Hello i am  printing after return keyword");
+//     return a=b;
+//     console.log();
 
-}
+// }
+
+// higher order function
+
+// function hof(a){//higher order fucntion
+//     return a();
+// }
+// let x = hof(function(){return "1,2,3"});//callback is a function which determine tis data syntax 
+// console.log(x);
+
+
+// let y = function(){return "NO Data"};
+// console.log(y());
+
+let users = ["Manohar", "Satvik", "Shiva", "Akshay"];
+console.log(users);
+users.map((users)=>{
+    console.log(users);// Map is higher order method which is accepting another function as a value
+})
+
+//**Closure**
+// var a = 10;
+// let b= 45;
+// function x(){
+//     var user = "Vasanth";
+//     let company = "Google";
+//     const sal = 1234567890;
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+//     console.log(a, b);
+// }
+// x()
+
 
