@@ -26,4 +26,4 @@ let users = ["Shiva","raju", "goku","samurai", "john"];
 let x = users.forEach((users, i)=>{
     return users;
 });
-console.log(x);
+console.log(x); 
