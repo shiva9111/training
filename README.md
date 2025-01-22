@@ -8,4 +8,6 @@
 Asynchronous in js:
 -------------------
 - note: js is also by default is "synchornous(single threaded)".
-- 
+
+syntax :- let x = new Promise((resolve, reject)=
+>());
